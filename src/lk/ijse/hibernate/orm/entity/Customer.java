@@ -7,10 +7,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /*@Entity(name = "customer")*/
-@Setter
-@Getter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Data
 @ToString
 @Entity
 @Table(name = "customer")

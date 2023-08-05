@@ -18,6 +18,7 @@ public class AppInitializer {
         customer.setAddress("Galle");
         customer.setSalary(25000.00);
 
+
         Transaction transaction = session.beginTransaction();
         session.save(customer);
         transaction.commit();
